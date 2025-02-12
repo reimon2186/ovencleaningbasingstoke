@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /search/
+Disallow: /privacy-policy/
+Disallow: /terms-and-conditions/
+
+Allow: /resources/images/
+
+Sitemap: https://ovencleaningbasingstoke.co.uk/sitemap.xml
