@@ -576,8 +576,19 @@ iframe {
     }
 
     .top-nav {
-        padding-right: 0;
-        padding-top: 20px;
+        display: none;
+    }
+
+    .phonenav {
+        display: block;
+    }
+
+    .hero {
+        display: none;
+    }
+
+    .hero3 {
+        display: block;
     }
 
     .quote-overlay {
@@ -610,14 +621,6 @@ iframe {
 
     .opening-times {
         font-size: 0.9em;
-    }
-
-    .top-nav {
-        display: none;
-    }
-
-    .phonenav {
-        display: block;
     }
 
     .hero-container {
