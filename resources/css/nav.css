@@ -290,7 +290,7 @@
       display: none;
     }
     #cs-navigation .cs-logo {
-      width: 18.4%;
+      width: 25%;
       max-width: 21.875rem;
       height: 4.0625rem;
       margin: 0 auto 0 0;height: 100%;
@@ -309,7 +309,7 @@
     #cs-navigation .cs-ul {
       width: 100%;
       margin: 0;
-      padding: 0;
+      padding: 0 150px 0 0;
       display: flex;
       height: 100%;
       justify-content: flex-start;
@@ -379,6 +379,29 @@
         color:#001a29;
         height: 70%
     }
+
+@media only screen and (max-width: 100rem) {
+    #cs-navigation .cs-ul {
+      padding: 0 100px 0 0;
+      }
+    }
+    @media only screen and (max-width: 87.5rem) {
+    #cs-navigation .cs-ul {
+      padding: 0 50px 0 0;
+      }
+    }
+    @media only screen and (max-width: 70rem) {
+    #cs-navigation .cs-ul {
+      padding: 0 30px 0 0;
+      }
+    }
+    @media only screen and (max-width: 65.625rem) {
+    #cs-navigation .cs-ul {
+      padding: 0;
+      }
+    }
+  
+
     @media only screen and (max-width: 57.5rem) {
         #cs-navigation .cs-button-solid {
             font-size: 1.5rem;
