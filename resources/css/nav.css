@@ -366,7 +366,7 @@
       height: 70%;
       margin: 0;
       box-sizing: border-box;
-      padding: 2rem 1.2rem;
+      padding: 1.6rem 1.2rem;
       color: #005484;
       background-color: var(--primary);
       border-radius: 0.25rem;
@@ -411,6 +411,10 @@
         #cs-navigation .under-number {
             font-size: 1.2rem !important;
         }
+        #cs-navigation .cs-button-solid {
+            padding: 2rem 1.2rem;
+      
+    }
     }
     @media only screen and (max-width: 23.75rem) {
       #cs-navigation .cs-button-solid {
