@@ -2,6 +2,16 @@ main{
     padding-bottom: 20px;
     padding-top: 80px;
 }
+.booking-link {
+    color: #005484;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .booking-link:hover {
+    color: black; 
+  }
 .contact-main {
     display: flex;
     justify-content: center;
