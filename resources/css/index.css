@@ -483,7 +483,6 @@ iframe {
 .quick-links ul {
     list-style: none;
     padding: 0;
-    margin: 0;
     font-size: 1em;
 }
     
@@ -756,5 +755,112 @@ iframe {
     }
     .quick-links{
         margin-right: 200px;
+    }
+}
+@media only screen and (max-width: 27.5rem) {
+    .quick-links{
+        padding-right: 160px;
+        margin-right:100px;
+    }
+    .quick-links li{
+        
+        width:100px;
+    }
+    .footer-top{
+        padding-left:0px !important;
+    }
+}
+@media only screen and (max-width: 27.25rem) {
+    .quick-links{
+        padding-right: 140px;
+        margin-right:80px;
+    }
+    .quick-links li{
+        
+        width:100px;
+    }
+}
+    @media only screen and (max-width: 23.398rem) {
+        .quick-links{
+            padding-right: 120px;
+            margin-right:100px;
+        }
+        .quick-links li{
+            
+            width:100px;
+        }
+    }
+    @media only screen and (max-width: 23.25rem) {
+        .quick-links{
+            padding-right: 100px;
+            margin-right:100px;
+        }
+        .quick-links li{
+            
+            width:100px;
+        }
+    }
+    @media only screen and (max-width: 22.25rem) {
+        .quick-links{
+            padding-right: 80px;
+            margin-right:100px;
+        }
+        .quick-links li{
+            
+            width:100px;
+        }
+    }
+    @media only screen and (max-width: 21.25rem) {
+        .quick-links{
+            padding-right: 60px;
+            margin-right:100px;
+        }
+        .quick-links li{
+            
+            width:100px;
+        }
+    }
+    @media only screen and (max-width: 19.398rem) {
+        .quick-links{
+            padding-right: 40px;
+            margin-right:100px;
+        }
+        .quick-links li{
+            
+            width:100px;
+        }
+    }
+    @media only screen and (max-width: 18.398rem) {
+        .quick-links{
+            padding-right: 20px;
+            margin-right:100px;
+        }
+        .quick-links li{
+            
+            width:100px;
+        }
+    }
+    @media only screen and (max-width: 56.25rem) {
+    .footer-top {
+        flex-direction: column;
+        align-items: left;
+        gap: 15px;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-bottom {
+        font-size: 0.8rem;
+        padding: 10px 0;
+        text-align: center;
+        width: 100%;
+    }
+    .quick-links{
+        margin-right: 170px;
+    }
+    .quick-links li{
+        
+        width:200px;
     }
 }
