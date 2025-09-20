@@ -75,85 +75,6 @@ iframe {
     padding: 15px 0;
 }
 
-
-
-@media only screen and (max-width: 768px) {
-    iframe {
-        width: 100%;
-        height: 200px;
-    }
-
-    .footer-top {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        padding: 15px;
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .footer-bottom {
-        font-size: 0.8rem;
-        padding: 10px 0;
-        text-align: center;
-        width: 100%;
-    }
-    .quick-links{
-        margin-right: 100px;
-    }
-}
-@media only screen and (max-width: 27.5rem) {
-
-   
-    .footer-top{
-        padding-left:0px !important;
-    }
-}
-@media only screen and (max-width: 27.25rem) {
-
-}
-    @media only screen and (max-width: 23.398rem) {
-
-        .quick-links li{
-            
-            width:100px;
-        }
-    }
-    @media only screen and (max-width: 23.25rem) {
-
-        .quick-links li{
-            
-            width:100px;
-        }
-    }
-    @media only screen and (max-width: 22.25rem) {
-  
-        .quick-links li{
-            
-            width:100px;
-        }
-    }
-    @media only screen and (max-width: 21.25rem) {
- 
-        .quick-links li{
-            
-            width:100px;
-        }
-    }
-    @media only screen and (max-width: 19.398rem) {
-
-        .quick-links li{
-            
-            width:100px;
-        }
-    }
-    @media only screen and (max-width: 18.398rem) {
-      
-        .quick-links li{
-            
-            width:100px;
-        }
-    }
     @media only screen and (max-width: 56.25rem) {
     .footer-top {
         flex-direction: column;
@@ -171,8 +92,7 @@ iframe {
         width: 100%;
     }
    
-    .quick-links li{
-        
-        width:200px;
-    }
 }
+
+
+
