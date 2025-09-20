@@ -186,3 +186,8 @@ form#contactForm button:hover {
         margin-bottom: 50px;
     }
 }
+@media (max-width: 28rem) {
+   .contact-main {
+        padding: 50px 15px;
+    }
+}
