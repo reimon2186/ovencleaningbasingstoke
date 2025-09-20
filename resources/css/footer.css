@@ -104,20 +104,13 @@ iframe {
 }
 @media only screen and (max-width: 27.5rem) {
 
-    .quick-links li{
-        
-        width:100px;
-    }
+   
     .footer-top{
         padding-left:0px !important;
     }
 }
 @media only screen and (max-width: 27.25rem) {
 
-    .quick-links li{
-        
-        width:100px;
-    }
 }
     @media only screen and (max-width: 23.398rem) {
 
