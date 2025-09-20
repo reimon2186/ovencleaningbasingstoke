@@ -754,14 +754,11 @@ iframe {
         width: 100%;
     }
     .quick-links{
-        margin-right: 200px;
+        margin-right: 100px;
     }
 }
 @media only screen and (max-width: 27.5rem) {
-    .quick-links{
-        padding-right: 160px;
-        margin-right:100px;
-    }
+
     .quick-links li{
         
         width:100px;
@@ -771,70 +768,49 @@ iframe {
     }
 }
 @media only screen and (max-width: 27.25rem) {
-    .quick-links{
-        padding-right: 140px;
-        margin-right:80px;
-    }
+
     .quick-links li{
         
         width:100px;
     }
 }
     @media only screen and (max-width: 23.398rem) {
-        .quick-links{
-            padding-right: 120px;
-            margin-right:100px;
-        }
+
         .quick-links li{
             
             width:100px;
         }
     }
     @media only screen and (max-width: 23.25rem) {
-        .quick-links{
-            padding-right: 100px;
-            margin-right:100px;
-        }
+
         .quick-links li{
             
             width:100px;
         }
     }
     @media only screen and (max-width: 22.25rem) {
-        .quick-links{
-            padding-right: 80px;
-            margin-right:100px;
-        }
+  
         .quick-links li{
             
             width:100px;
         }
     }
     @media only screen and (max-width: 21.25rem) {
-        .quick-links{
-            padding-right: 60px;
-            margin-right:100px;
-        }
+ 
         .quick-links li{
             
             width:100px;
         }
     }
     @media only screen and (max-width: 19.398rem) {
-        .quick-links{
-            padding-right: 40px;
-            margin-right:100px;
-        }
+
         .quick-links li{
             
             width:100px;
         }
     }
     @media only screen and (max-width: 18.398rem) {
-        .quick-links{
-            padding-right: 20px;
-            margin-right:100px;
-        }
+      
         .quick-links li{
             
             width:100px;
@@ -856,9 +832,7 @@ iframe {
         text-align: center;
         width: 100%;
     }
-    .quick-links{
-        margin-right: 170px;
-    }
+   
     .quick-links li{
         
         width:200px;
