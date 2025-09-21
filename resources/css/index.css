@@ -388,6 +388,7 @@ body {
     padding-bottom:80px;
     padding-left: 50px;
     padding-right: 50px;
+    margin: 0 50px;
 }
 .two{
     background-color: #f0eadf;
@@ -395,6 +396,7 @@ body {
     padding-bottom:80px;
     padding-left: 50px;
     padding-right: 50px;
+    margin: 0 50px;
 }
 .three{
     background-color: #e0d6c3;
@@ -402,6 +404,7 @@ body {
     padding-bottom:80px;
     padding-left: 50px;
     padding-right: 50px;
+    margin: 0 50px;
 }
 
 .testimonials {
