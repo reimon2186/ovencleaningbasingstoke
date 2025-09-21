@@ -438,7 +438,7 @@ body {
 }
 
 .testimonial p {
-    font-size: clamp(0.7rem, 1.2vw, 1.1em);
+    font-size: clamp(0.8rem, 1.0vw, 1.0em);
     margin-bottom: 15px;
 }
 
