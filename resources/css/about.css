@@ -140,12 +140,12 @@
 
 .benefit h3 {
     color: #005484;
-    font-size: clamp(1rem, 2vw, 1.625rem);
+    font-size: clamp(1rem, 1.6vw, 1.425rem);
     margin-bottom: 20px;
 }
 
 .benefit p {
-    font-size: clamp(1rem, 1.2vw, 1.125rem);
+    font-size: clamp(0.8rem, 1.1vw, 1.125rem);
     line-height: 1.8;
     color: #333;
 }
