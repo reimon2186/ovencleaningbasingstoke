@@ -76,7 +76,7 @@
    
 }
 .team-member p{
-    max-width:800px;
+    max-width:700px;
     font-size: clamp(0.9rem, 1.2vw, 1.1em);
 }
 
@@ -152,7 +152,7 @@
 }
 
 .benefit p {
-    font-size: clamp(1rem, 1.3vw, 1.225rem);
+    font-size: clamp(0.9rem, 1.1vw, 1.125rem);
     line-height: 1.8;
     color: #333;
 }
@@ -187,7 +187,7 @@
     }
 
     .our-team {
-        padding:30px;
+        padding-top:30px;
         width: 90%;
     }
 
