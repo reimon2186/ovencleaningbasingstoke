@@ -440,7 +440,7 @@ body {
 }
 
 .testimonial p {
-    font-size: clamp(0.9rem, 1.5vw, 1.2em);
+    font-size: clamp(0.7rem, 1.2vw, 1.1em);
     margin-bottom: 15px;
 }
 
