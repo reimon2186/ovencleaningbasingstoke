@@ -200,7 +200,7 @@ body {
 }
 
 .hero2-title {
-    font-size: 3em;
+    font-size: clamp(1.5rem, 3vw, 3em);
     font-weight: bold;
     margin-bottom: 20px;
     color: #ffffff;
