@@ -105,6 +105,9 @@ nav ul li a {
     justify-content: flex-end;
  
 }
+.hero {
+    display: block;
+}
 .hero-image {
     width: 100%;
     height: 618px;
