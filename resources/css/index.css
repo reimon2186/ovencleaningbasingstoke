@@ -391,11 +391,13 @@ body {
 }
 .two{
     background-color: #f0eadf;
-    padding: 80px 250px;
+    padding-bottom:80px;
+    padding-left: 50px;
 }
 .three{
     background-color: #e0d6c3;
-    padding: 80px 250px;
+    padding-bottom:80px;
+    padding-left: 50px;
 }
 
 .testimonials {
