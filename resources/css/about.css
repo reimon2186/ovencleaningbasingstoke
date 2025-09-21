@@ -45,20 +45,20 @@
 .our-team {
     padding: 40px;
     text-align: center;
-    width:1200px;
+    max-width:1200px;
     align-items: center;
     margin: 0 auto;
     
 }
 
 .our-team h2 {
-    font-size: 2.4em;
+    font-size: clamp(1.2rem, 2.4vw, 2.4em);
     margin-bottom: 0;
     color: #005484;
     margin-left:65px;
 }
 .our-team h3 {
-    font-size: 1.8em !important;
+    font-size: clamp(1rem, 1.8vw, 1.8em) !important;
     margin-bottom: 20px;
     margin-top: 0;
     color: #005484;
@@ -77,7 +77,7 @@
 }
 .team-member p{
     width:700px;
-    font-size:1.1em;
+    font-size: clamp(0.9rem, 1.2vw, 1.1em);
 }
 
 .team-photo {
@@ -94,7 +94,7 @@
 }
 
 .team-info h3 {
-    font-size: 20px;
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
     margin-bottom: 5px;
 }
 
@@ -113,7 +113,7 @@
 
 .why-choose-us h2 {
     color: #005484;
-    font-size: 36px;
+    font-size: clamp(1.2rem, 3vw, 2.25rem);
     margin-bottom: 40px;
 }
 
@@ -140,12 +140,12 @@
 
 .benefit h3 {
     color: #005484;
-    font-size: 26px;
+    font-size: clamp(1rem, 2vw, 1.625rem);
     margin-bottom: 20px;
 }
 
 .benefit p {
-    font-size: 18px;
+    font-size: clamp(1rem, 1.2vw, 1.125rem);
     line-height: 1.8;
     color: #333;
 }
