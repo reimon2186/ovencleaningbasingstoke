@@ -75,7 +75,7 @@ iframe {
     padding: 15px 0;
 }
 
-    @media only screen and (max-width: 56.25rem) {
+    @media only screen and (max-width: 59.4rem) {
     .footer-top {
         flex-direction: column;
         align-items: left;
