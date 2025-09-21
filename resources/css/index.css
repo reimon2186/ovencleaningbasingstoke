@@ -392,11 +392,13 @@ body {
 .two{
     background-color: #f0eadf;
     padding-top:80px;
+    padding-bottom:80px;
     padding-left: 50px;
 }
 .three{
     background-color: #e0d6c3;
     padding-top:80px;
+    padding-bottom:80px;
     padding-left: 50px;
 }
 
