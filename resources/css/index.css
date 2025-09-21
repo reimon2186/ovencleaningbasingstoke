@@ -449,6 +449,73 @@ body {
     color: #005484;
 }
 
+@media only screen and (max-width: 70rem) {
+    .services{
+        display: none;
+    }
+    .services2 {
+        display: block;
+        padding: 0px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .services2 h2 {
+        margin-bottom: 0 !important;
+        display:block;
+        color:#005484;
+        text-align: center;
+        font-size: 2.5em;
+    }
+    .services2 h3{
+        margin-top: 0;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        padding-top:50px;
+    }
+
+    .service-image {
+        max-width: 100%;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .service-text {
+        max-width: 100%;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .testimonials {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .testimonial-list {
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .testimonial {
+        max-width: 100%;
+        padding: 15px;
+        height: auto;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+}
+
 @media only screen and (max-width: 60rem) {
 .features {
         display: flex;
