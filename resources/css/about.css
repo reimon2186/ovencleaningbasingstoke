@@ -152,7 +152,7 @@
 }
 
 .benefit p {
-    font-size: clamp(0.9rem, 1.1vw, 1.175rem);
+    font-size: clamp(0.9rem, 1.1vw, 1.075rem);
     line-height: 1.8;
     color: #333;
 }
