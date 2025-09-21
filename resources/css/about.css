@@ -68,7 +68,7 @@
 .team-member {
     display: flex;
     flex-wrap: wrap;
-    max-width:1200px;
+    max-width:1400px;
     gap: 80px;
     align-items: center;
     justify-content: center;
@@ -76,7 +76,7 @@
    
 }
 .team-member p{
-    max-width:700px;
+    max-width:800px;
     font-size: clamp(0.9rem, 1.2vw, 1.1em);
 }
 
@@ -89,7 +89,7 @@
 }
 
 .team-info {
-    max-width: 600px;
+    max-width: 700px;
     text-align: left;
 }
 
@@ -136,12 +136,12 @@
     background-color: #fff;
     border: 1px solid #f0eadf;
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
     flex: 1;
     min-width: 150px;
     max-width: 450px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-height: 500px;
+    height: 400px;
 }
 
 
