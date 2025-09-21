@@ -133,9 +133,10 @@
     border-radius: 10px;
     padding: 30px;
     flex: 1;
-    min-width: 200px;
+    min-width: 150px;
     max-width: 450px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 500px;
 }
 
 .benefit h3 {
