@@ -386,16 +386,17 @@ body {
 }
 .one{
     padding-bottom:80px;
+    padding-top:80px;
     padding-left: 50px;
 }
 .two{
     background-color: #f0eadf;
-    padding-bottom:80px;
+    padding-top:80px;
     padding-left: 50px;
 }
 .three{
     background-color: #e0d6c3;
-    padding-bottom:80px;
+    padding-top:80px;
     padding-left: 50px;
 }
 
