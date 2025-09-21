@@ -1,5 +1,5 @@
 .page-title {
-    font-size: 2.2em;
+    font-size: clamp(1.2rem, 2.2vw, 2.2em);
     line-height: 1.4em;
     background-color: #005484;
     color: #fff;
