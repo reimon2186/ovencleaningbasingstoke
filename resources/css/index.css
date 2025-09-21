@@ -353,7 +353,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px; 
-    width: 90%;
+    width: 100%;
 }
 
 
@@ -387,22 +387,22 @@ body {
 }
 .one{
     padding-bottom:80px;
-    padding-left: 50px !important;
-    padding-right: 50px;
+    padding-left: 25px !important;
+    padding-right: 25px;
 }
 .two{
     background-color: #f0eadf;
     padding-top:80px;
     padding-bottom:80px;
-    padding-left: 50px !important;
-    padding-right: 50px;
+    padding-left: 25px !important;
+    padding-right: 25px;
 }
 .three{
     background-color: #e0d6c3;
     padding-top:80px;
     padding-bottom:80px;
-    padding-left: 50px !important;
-    padding-right: 50px;
+    padding-left: 25px !important;
+    padding-right: 25px;
 }
 
 .testimonials {
