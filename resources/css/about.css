@@ -108,6 +108,11 @@
     text-align: center;
     background-color: #f0eadf;
     padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
 }
 
@@ -136,8 +141,9 @@
     min-width: 150px;
     max-width: 450px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 500px;
+    max-height: 500px;
 }
+
 
 .benefit h3 {
     color: #005484;
