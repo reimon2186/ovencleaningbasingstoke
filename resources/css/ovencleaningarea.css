@@ -141,7 +141,7 @@
     color: #005484;
     margin-bottom: 40px;
     padding-left: 40px;
-    padding-top: clamp(20px, 5vw, 70px);
+    padding-top: clamp(20px, 4.5vw, 70px);
 }
 
 .cleaning-process .text h3 {
