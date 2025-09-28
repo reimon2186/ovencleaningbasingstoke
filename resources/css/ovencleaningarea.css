@@ -26,7 +26,7 @@
 }
 
 .intro-text {
-    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    font-size: clamp(0.9rem, 2.2vw, 1.2rem);
     color: #d9c6a6;
     text-align: center;
     line-height: 1.6em !important;
@@ -308,7 +308,7 @@
 }
 @media only screen and (max-width: 768px) {
     .intro-text{
-        padding: 0px 15px;
+        padding: 0px 5px;
     }
     .cleaning-process .grid-container {
         display: flex;
