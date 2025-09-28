@@ -91,6 +91,7 @@
 .team-info {
     max-width: 700px;
     text-align: left;
+    max-width: 90%;
 }
 
 .team-info h3 {
