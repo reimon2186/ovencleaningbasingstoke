@@ -371,4 +371,14 @@
     .area-links a {
     padding: 15px 15px;
     }
+    .oven-list{
+        padding:10px;
+    }
+    .oven-list li {
+        min-width: 240px;
+        max-width: 250px;
+    }
+    .oven-list img {
+    padding: 15px 15px;
+    }
 }
