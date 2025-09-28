@@ -146,7 +146,7 @@
 .cleaning-process .text p {
     font-size: clamp(0.9em, 2vw, 1.2rem);
     margin-bottom: 20px;
-    line-height: 2em;
+    line-height: clamp(1.5rem, 2rem, 2.5rem);
     padding-left: 40px;
     padding-right: 40px;
 }
