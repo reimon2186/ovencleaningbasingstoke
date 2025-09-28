@@ -11,6 +11,8 @@
     margin-right: auto;
     padding-bottom:30px;
     padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
   
 }
 .page-title {
@@ -294,7 +296,7 @@
 }
 @media only screen and (max-width: 768px) {
     .intro-text{
-        padding: 0px 10px;
+        padding: 0px 15px;
     }
     .cleaning-process .grid-container {
         display: flex;
