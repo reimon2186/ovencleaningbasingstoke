@@ -1,6 +1,5 @@
 main{
     padding-bottom: 20px;
-    padding-top: 80px;
 }
 .booking-link {
     color: #005484;
@@ -16,10 +15,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 200px);
+    height: auto;
     background-color: #fff;
-    margin-top: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .container {
