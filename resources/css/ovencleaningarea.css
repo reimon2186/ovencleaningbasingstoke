@@ -14,7 +14,7 @@
   
 }
 .page-title {
-    font-size: 42.24px;
+    font-size: clamp(28px, 3.3vw, 42.24px);
     margin-top: 0;
     line-height: 1.6em;
     text-align: center;
@@ -24,7 +24,7 @@
 }
 
 .intro-text {
-    font-size: 1.2em;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
     color: #d9c6a6;
     text-align: center;
     line-height: 1.6em !important;
@@ -42,7 +42,7 @@
 
 
 .section-title {
-    font-size: 2em;
+    font-size: clamp(1.25em, 4vw, 2em);
     color: #005484;
     text-align: center;
     margin-bottom: 20px;
@@ -59,7 +59,7 @@
 }
 
 .oven-types h2 {
-    font-size: 2em;
+    font-size: clamp(1.25em, 4vw, 2em);
     text-align: center;
     color: #005484;
     margin: 0 auto 20px;
@@ -68,7 +68,7 @@
 }
 
 .oven-types p {
-    font-size: 1.1em;
+    font-size: clamp(1rem, 2vw, 1.1rem);
     line-height: 1.8em;
     color: #333;
     margin-bottom: 30px;
@@ -124,7 +124,7 @@
 }
 
 .cleaning-process .text h2 {
-    font-size: 2em;
+    font-size: clamp(1.25rem, 4vw, 2rem);
     color: #005484;
     margin-bottom: 40px;
     padding-left: 40px;
@@ -132,7 +132,7 @@
 }
 
 .cleaning-process .text h3 {
-    font-size: 1.4em;
+    font-size: clamp(1.25em, 3vw, 1.4em);
     color: #005484;
     margin-bottom: 10px;
     padding-left: 40px;
@@ -142,7 +142,7 @@
 }
 
 .cleaning-process .text p {
-    font-size: 1.1em;
+    font-size: clamp(1rem, 2vw, 1.1rem);
     margin-bottom: 20px;
     line-height: 2em;
     padding-left: 40px;
@@ -172,13 +172,13 @@
     font-size: 36px;
 }
 .booking-process p{
-    font-size: 1.2em;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
     max-width: 1200px;
     margin: 0 auto;
 }
 .cta-button2 {
     display: inline-block;
-    font-size: 1.2em;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
     color: #005484;
     background-color: #fff;
     padding: 10px 25px;
@@ -205,7 +205,7 @@
 }
 
 .faq-section h2 {
-    font-size: 2em;
+    font-size: clamp(1.25rem, 4vw, 2rem);
     color: #005484;
     margin-bottom: 20px;
     border-bottom: 2px solid #d9c6a6;
@@ -225,7 +225,7 @@
     background: #fff;
     border-radius: 10px;
     margin-bottom: 15px;
-    font-size: 1.1em;
+    font-size: clamp(1rem, 2vw, 1.1rem);
     border: 1px solid #d9c6a6;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -238,12 +238,12 @@
 
 .faq-list strong {
     color: #005484;
-    font-size: 1.2em;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
 }
 
 .faq-list p {
     margin-top: 10px;
-    font-size: 1em;
+    font-size: clamp(0.95rem, 2vw, 1rem);
     color: #333;
     line-height: 1.8em;
     text-align: left;
@@ -274,7 +274,7 @@
 
 
 .area-links a {
-    font-size: 1.1em;
+    font-size: clamp(1rem, 2vw, 1.1rem);
     line-height: 1.5em;
     color: #555;
     text-decoration: none;
