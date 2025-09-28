@@ -208,9 +208,8 @@
 
     .team-member {
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         gap: 20px;
-        padding: 0 20px;
     }
 
     .team-member p {
