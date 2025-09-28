@@ -488,6 +488,28 @@ body {
         padding: 10px;
         padding-top:50px;
     }
+    .one{
+        padding-bottom:80px;
+        padding-left: 0px !important;
+        padding-right: 0px;
+
+    }
+    .two{
+        background-color: #f0eadf;
+        padding-top:80px;
+        padding-bottom:80px;
+        padding-left: 0px !important;
+        padding-right: 0px;
+
+    }
+    .three{
+        background-color: #e0d6c3;
+        padding-top:80px;
+        padding-bottom:80px;
+        padding-left: 0px !important;
+        padding-right: 0px;
+
+    }
 
     .service-image {
         max-width: 100%;
