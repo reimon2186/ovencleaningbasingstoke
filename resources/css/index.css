@@ -361,7 +361,7 @@ body {
 .service-image {
     flex: 1;
     height: auto;
-    max-width:350px;
+    max-width: clamp(200px, 25vw, 350px);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -369,7 +369,7 @@ body {
 .service-text {
     flex: 1;
     text-align: left;
-    max-width: 700px;
+    max-width: clamp(18rem, 35vw, 32rem);
     padding: 0 20px;
 }
 
