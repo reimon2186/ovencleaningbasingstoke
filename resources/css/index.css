@@ -750,3 +750,59 @@ body {
     }
 
 }
+@media only screen and (max-width: 73.125rem) {
+
+    .quote-input{
+        font-size: 0.8rem;
+    }
+    .services{
+        display: none;
+    }
+    .services2 {
+        display: block;
+        padding: 0px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .services2 h2 {
+        margin-bottom: 0 !important;
+        display:block;
+        color:#000;
+        text-align: center;
+        font-size: 2.5em;
+    }
+    .services2 h3{
+        margin-top: 0;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        padding-top:50px;
+    }
+
+    .service-image {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .service-images img {
+        max-width: clamp(20%, 38%, 50%);
+    }
+
+
+    .service-text {
+        max-width: 90%;
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 55.25rem) {
+    .service-images img {
+        max-width: 48%;
+    }
+}
