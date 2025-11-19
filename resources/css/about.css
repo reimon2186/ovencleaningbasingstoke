@@ -208,7 +208,6 @@
 
     .team-member {
         flex-direction: column;
-        width: 90%;
         gap: 20px;
         padding: 0 15px;
     }
@@ -233,7 +232,7 @@
     }
 
     .why-choose-us h2 {
-        font-size: 30px;
+        font-size: clamp(1.25rem, 3vw, 1.875rem);
         margin-bottom: 30px;
     }
 
@@ -249,12 +248,12 @@
     }
 
     .benefit h3 {
-        font-size: 22px;
+        font-size: clamp(1.25rem, 3vw, 1.875rem);
         margin-bottom: 15px;
     }
 
     .benefit p {
-        font-size: 16px;
+        font-size: clamp(1rem, 2vw, 1.25rem);
         line-height: 1.6;
     }
 
