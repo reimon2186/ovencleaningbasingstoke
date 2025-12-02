@@ -1,15 +1,23 @@
 main{
     padding-bottom: 20px;
-    padding-top: 80px;
 }
+.booking-link {
+    color: #005484;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .booking-link:hover {
+    color: black; 
+  }
 .contact-main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 200px);
+    height: auto;
     background-color: #fff;
-    margin-top: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -128,7 +136,6 @@ form#contactForm button:hover {
     main {
         flex: 1;
         margin: 0;
- 
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -142,7 +149,7 @@ form#contactForm button:hover {
         width: 90%;
         margin: 0;
         padding: 15px;
-        padding-top: 0px;
+        padding-top: 20px;
         margin-top:80px;
         margin-bottom: 200px;
     }
@@ -175,5 +182,15 @@ form#contactForm button:hover {
         width: 100%;
         margin: 0 auto;
         margin-bottom: 50px;
+    }
+}
+@media (max-width: 28rem) {
+   .contact-main {
+        padding: 50px 15px;
+    }
+}
+@media (max-width: 25rem) {
+   .contact-main {
+        padding: 140px 15px 80px 15px;
     }
 }
