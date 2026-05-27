@@ -224,16 +224,25 @@
         gap: 20px;
         padding: 40px 15px;
     }
+     .team-member1 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px 15px;
+    }
 
     .team-member p {
         width: 100%;
         font-size: clamp(0.9rem, 1vw, 1em);
     }
-
+.team-member1 p {
+        width: 100%;
+        font-size: clamp(0.9rem, 1vw, 1em);
+    }
     .team-photo {
         max-width: 200px;
         max-height: 200px;
     }
+
 
     .team-info {
         max-width: 100%;
