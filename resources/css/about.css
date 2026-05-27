@@ -92,6 +92,10 @@
     max-width:700px;
     font-size: clamp(0.9rem, 1.2vw, 1.1em);
 }
+.team-member1 p{
+    max-width:700px;
+    font-size: clamp(0.9rem, 1.2vw, 1.1em);
+}
 
 .team-photo {
     width: 350px;
