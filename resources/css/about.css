@@ -76,6 +76,18 @@
     padding-top: 40px;
    
 }
+.team-member1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    max-width:1400px;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+   
+}
 .team-member p{
     max-width:700px;
     font-size: clamp(0.9rem, 1.2vw, 1.1em);
